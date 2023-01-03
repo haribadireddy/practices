@@ -17,9 +17,9 @@ def get_top_two(lst: List) -> tuple[int, int]:
 def runner_up(n: int) -> int:
     lst = []
     for i in range(n):
-        s = int(input("enter the score: "))
+        s = int(input())
         lst.append(s)
-    print(lst)
+    #print(lst)
     winner, runner = get_top_two(lst)
     return runner
 
