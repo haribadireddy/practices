@@ -4,4 +4,4 @@ def sum(x,*y):
         c=c+i
     print(c)
 
-sum(5,6,34,78)
+sum(5,6,1)

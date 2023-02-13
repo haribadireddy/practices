@@ -26,4 +26,4 @@ def fib_recursion(n: int) -> int:
 # if n==3:f(2)+f(1)=1+0=1
 # if n==4:f(3)+f(2)=1+0+1=2
 # if n==5::f(4)+f(3)=f(3)+f(2) +1=1+1+1=3
-print(fib_recursion(8))
+print(fib(8))
